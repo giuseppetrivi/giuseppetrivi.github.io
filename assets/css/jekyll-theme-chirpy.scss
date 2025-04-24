@@ -13,3 +13,31 @@
 #mode-toggle {
   margin-right: .8rem;
 }
+
+.rounded-circle {
+  border-radius: 0px !important;
+}
+
+#sidebar #avatar {
+  box-shadow: none;
+}
+
+.logo-title {
+  margin-bottom: 10px;
+}
+
+.avatar-img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  margin-right: 0.6rem;
+  border-radius: 5px;
+}
+
+#sidebar .site-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+  margin-top: 0;
+}
