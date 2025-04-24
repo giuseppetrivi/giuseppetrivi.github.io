@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: it
+lang: it-IT
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone:
@@ -16,7 +16,7 @@ timezone:
 
 title: giuseppetrivi # the main title
 
-tagline: Idee e pensieri # it will display as the subtitle
+tagline: Software engineer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Blog personale per la condivisione di idee e trattazioni tecniche legate allo sviluppo di software.
