@@ -10,7 +10,7 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: Pagina principale
+  home: Home
   categories: Categorie
   tags: Tags
   archives: Archivio
@@ -18,7 +18,7 @@ tabs:
 
 # the text displayed in the search bar & search results
 search:
-  hint: ricerca
+  hint: Cerca
   cancel: Cancella
   no_results: Oops! La ricerca non ha fornito risultati.
 
