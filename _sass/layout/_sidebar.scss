@@ -190,7 +190,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       width: $btn-size;
       height: $btn-size;
       margin-bottom: $btn-mb; // multi line gap
-      border-radius: 50%;
+      border-radius: 5px;
       color: var(--sidebar-btn-color);
       background-color: var(--sidebar-btn-bg);
       text-align: center;
