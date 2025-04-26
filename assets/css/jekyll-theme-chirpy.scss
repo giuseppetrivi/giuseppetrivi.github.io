@@ -41,3 +41,33 @@
   color: inherit;
   margin-top: 0;
 }
+
+
+/* Classi per la pagina "About" */
+.content {
+  text-align: justify;
+}
+
+.about-who-i-am {
+  display: flex; 
+  align-items: center; 
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.about-who-i-am > a > img {
+  max-width: 100%;
+  width: 100rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+@media (max-width: 790px) {
+  .about-who-i-am {
+    display: block;
+  }
+
+  .about-who-i-am > a > img {
+    width: 100%;
+  }
+}
