@@ -18,7 +18,7 @@ order: 4
 
 Mi occupo principalmente di sviluppo di software, nello specifico della parte relativa al back-end, dalla costruzione dell'architettura software e di eventuali database all'implementazione nel codice.
 
-Da [qui]() è possibile consultare il mio curriculum in formato PDF.
+Da [qui](https://google.it) è possibile consultare il mio curriculum in formato PDF.
 
 ### Che scopo ha questo blog?
 
