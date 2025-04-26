@@ -139,7 +139,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
         display: flex;
         align-items: center;
         border-radius: 0.75rem;
-        font-weight: 600;
+        font-weight: 500;
 
         &:hover {
           background-color: var(--sidebar-hover-bg);
@@ -153,7 +153,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
         span {
           font-size: 90%;
-          letter-spacing: 0.2px;
+          letter-spacing: 0.25px;
         }
       }
 

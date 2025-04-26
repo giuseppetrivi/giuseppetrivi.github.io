@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-### Chi sono
+## Chi sono
 
 <div class="about-who-i-am">
 
@@ -20,7 +20,7 @@ Mi occupo principalmente di sviluppo di software, nello specifico della parte re
 
 Da [qui](https://google.it) è possibile consultare il mio curriculum in formato PDF.
 
-### Che scopo ha questo blog?
+## Lo scopo di questo blog
 
 I [blog](https://it.wikipedia.org/wiki/Blog) sono passati ormai di moda da anni, messi in crisi soprattutto, intorno al 2010, dall'avvento dei social network. Tuttavia, penso che per un certo tipo di argomenti e per un certo stile di trattazione più approfondito e tecnico siano ancora una forma valida di comunicazione, per chi li gestisce, e di informazione, per chi ne usufruisce.
 

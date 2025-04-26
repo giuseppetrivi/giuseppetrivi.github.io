@@ -16,7 +16,7 @@ timezone:
 
 title: giuseppetrivi # the main title
 
-tagline: Software engineer # it will display as the subtitle
+tagline:  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Blog personale per la condivisione di idee e trattazioni tecniche legate allo sviluppo di software.
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://github.com/giuseppetrivi.png"
+avatar: "/assets/img/website-logo.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

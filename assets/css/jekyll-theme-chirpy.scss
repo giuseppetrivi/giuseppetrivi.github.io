@@ -27,19 +27,28 @@
 }
 
 .avatar-img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   object-fit: cover;
   margin-right: 0.6rem;
   border-radius: 5px;
 }
 
+#sidebar .profile-wrapper {
+  margin-bottom: 1.2rem;
+}
+
 #sidebar .site-title {
+  font-family: "Lora";
   font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
   color: inherit;
   margin-top: 0;
+}
+
+#sidebar .site-subtitle {
+  font-family: "Lora";
 }
 
 
@@ -69,5 +78,6 @@
 
   .about-who-i-am > a > img {
     width: 100%;
+    margin-bottom: 10px;
   }
 }
