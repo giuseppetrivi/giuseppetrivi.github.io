@@ -51,10 +51,13 @@
   {{ seo_tags }}
 
   <title>
-    {%- unless page.layout == 'home' -%}
-      {{ page.title | append: ' | ' }}
-    {%- endunless -%}
-    {{ site.title }}
+    {% if page.title %}
+      {% assign tab_key = page.title | downcase %}
+      {% assign localized_title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
+      {{ localized_title }} |  {{site.title}}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
   </title>
 
   {% include_cached favicons.html %}
