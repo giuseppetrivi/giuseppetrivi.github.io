@@ -70,7 +70,7 @@
   word-break: keep-all;
 
   @include bp.lt(bp.get(lg)) {
-    display: block;
+    display: none;
   }
 
   @include bp.lg {
