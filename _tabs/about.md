@@ -8,7 +8,7 @@ order: 4
 
 <div class="about-who-i-am">
 
-  <img src="/assets/img/personal-img.JPG" alt="foto personale">
+  <img src="/assets/img/personal-img.webp" alt="foto personale">
 
   <div>
     <p>Il mio nome è <b>Giuseppe Trivisano</b> (da qui "trivi"), sono nato nel 2001 e sono appassionato di informatica e software dai tempi delle scuole medie. Mi sono laureato nell'Aprile 2025 alla triennale di <a href="https://www.uniba.it/it/corsi/cdl-informatica-tecnologie-produzione-software">Informatica e Tecnologie per la Produzione del Software dell'Università di Bari</a>.</p>
