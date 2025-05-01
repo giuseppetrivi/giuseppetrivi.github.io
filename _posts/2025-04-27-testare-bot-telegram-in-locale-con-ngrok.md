@@ -34,7 +34,7 @@ Il normale flusso di impostazione di un bot Telegram, spiegato più nel dettagli
 1. dopo una serie di passaggi, viene fornito da [@BotFather](https://telegram.me/BotFather) il `<TOKEN>` del bot creato;
 2. attraverso una chiamata del tipo `https://api.telegram.org/bot<TOKEN>/setWebhook?url=<ENDPOINT_URL>` viene impostato il webhook, ovvero l'endpoint che verrà interpellato all'inizio di ogni richiesta inviata dall'interfaccia del bot Telegram;
 
-<a name="ngrok-script-flow"></a>
+<a href="https://google.it" name="ngrok-script-flow"></a>
 Se si vuole utilizzare ngrok per sviluppare il bot in locale ed, eventualmente, su un bot (token) differente adibito appositamente per il testing, allora vanno eseguiti i seguenti passaggi:
 1. creare il tunnel ngrok e ottenere l'URL provvisorio generato da ngrok, da utilizzare come webhook
 2. eliminare il precedente webhook associato al bot con una chiamata del tipo `https://api.telegram.org/bot<TOKEN>/deleteWebhook`
