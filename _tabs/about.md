@@ -24,7 +24,7 @@ Da [qui](/assets/files/Curriculum_Giuseppe_Trivisano_(Almalaurea).pdf) è possib
 
 I [blog](https://it.wikipedia.org/wiki/Blog) sono passati ormai di moda da anni, messi in crisi soprattutto dall'avvento dei social network intorno al 2010. Tuttavia, per un certo tipo di argomenti e per un certo stile di trattazione più approfondito e tecnico restano tutt'oggi una valida forma di comunicazione per chi li gestisce e una preziosa fonte di informazione per chi ne usufruisce.
 
-Lo scopo di questo blog è catalizzare tutti i progetti, le idee e i pensieri relativi allo sviluppo di software e a tutti i miei campi di interesse in generale, cercando di essere più chiaro e esplicito possibile e di offrire spunti interessanti ai lettori.
+Lo scopo di questo blog è catalizzare tutti i progetti, le idee e i pensieri relativi allo sviluppo di software e a tutti i miei campi di interesse in generale, cercando di essere più chiaro ed esplicito possibile e di offrire spunti interessanti ai lettori.
 
 
 
