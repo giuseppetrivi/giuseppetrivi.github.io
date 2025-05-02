@@ -16,7 +16,7 @@ order: 4
 
 </div>
 
-Mi occupo principalmente di sviluppo di software, nello specifico della parte relativa al back-end, dalla costruzione dell'architettura del software e di eventuali database all'implementazione nel codice.
+Mi occupo principalmente di sviluppo di software e nello specifico della parte relativa al back-end, dalla costruzione dell'architettura del software e di eventuali database all'implementazione nel codice.
 
 [Qui](/assets/files/Tesi_Giuseppe_Trivisano070425.pdf) può essere visionata la mia tesi di laurea sperimentale svolta in collaborazione con due ricercatori dell'[ISTC (*Istituto di Scienze e Tecnologie della Cognizione*)](https://www.istc.cnr.it/) del [CNR (*Consiglio Nazionale delle Ricerche*)](https://www.cnr.it/), che tratta dei sistemi multi-agente e dell'utilizzo delle strategie evolutive per il loro controllo coordinato.
 
