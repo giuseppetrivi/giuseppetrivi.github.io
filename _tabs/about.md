@@ -18,7 +18,7 @@ order: 4
 
 Mi occupo principalmente di sviluppo di software, nello specifico della parte relativa al back-end, dalla costruzione dell'architettura del software e di eventuali database all'implementazione nel codice.
 
-Da [qui](https://google.it) è possibile consultare il mio curriculum in formato PDF.
+Da [qui](/assets/files/Curriculum_Giuseppe_Trivisano_(Almalaurea).pdf) è possibile consultare il mio curriculum Almalaurea in formato PDF.
 
 ## Lo scopo di questo blog
 

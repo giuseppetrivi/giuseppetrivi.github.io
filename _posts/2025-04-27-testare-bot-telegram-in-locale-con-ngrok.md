@@ -17,7 +17,6 @@ Prima di mandare un software in produzione e renderlo accessibile al pubblico è
 
 Durante [la loro configurazione](https://core.telegram.org/bots/tutorial), i bot Telegram hanno bisogno di un [webhook](https://it.wikipedia.org/wiki/Webhook), ovvero un collegamento ad uno specifico endpoint (ad esempio un file PHP) presente sul web e accessibile tramite URL. Questo file è scritto appositamente per fungere da punto di accesso per l'elaborazione delle richieste inviate dall'interfaccia del bot Telegram. Questo vuol dire che per sviluppare un bot Telegram, verificandone contemporaneamente il corretto funzionamento, bisogna comunque inserire tutto il progetto (file di codice) in un server accessibile dal web tramite URL. Quindi, per ogni modifica al codice del bot va utilizzato un collegamento FTP per caricare i file modificati sul server e solo successivamente può essere testato attraverso l'interfaccia di Telegram. Tutto ciò complica  notevolmente il processo di sviluppo e ne rallenta l'efficienza.
 
----
 ## Una soluzione: **ngrok**
 Una possibile soluzione a questa scomoda dinamica è offerta da [ngrok](https://ngrok.com/), uno strumento che consente ad un servizio in esecuzione locale di essere accessibile dal web in sicurezza tramite un URL provvisorio appositamente generato. Quando viene eseguito questo software da linea di comando, su una determinata porta in locale viene avviato un **agente ngrok** che crea una connessione tramite [**TLS**](https://it.wikipedia.org/wiki/Transport_Layer_Security) alla rete globale di server ngrok, chiamata **ngrok edge**, avendo, così, un tunnel sicuro tra le risorse locali e i server ngrok. Poi ngrok fornirà l'URL pubblico dal quale sarà possibile accedere a queste risorse tramite la rete ngrok edge [[approfondimento qui](https://ngrok.com/docs/how-ngrok-works/)].
 
@@ -26,7 +25,7 @@ In tal modo, utilizzando l'URL fornito da ngrok come webhook di un bot Telegram,
 Per sfruttare questo servizio andrebbero seguiti una serie di passaggi che io ho reso per la maggior parte automatici con uno script reperibile [da questo repository di GitHub](https://github.com/giuseppetrivi/ngrok-for-testing-telegram-bot) e che spiego nel prossimo paragrafo.
 
 ---
-## Come utilizzare ngrok con un semplice script
+## Uno script per migliorare lo sviluppo
 Come accennato sopra, la necessità di testare bot Telegram in locale semplicemente modificando e salvando il codice mi ha spinto ad usare ngrok. L'URL generato da ngrok, però, cambia ogni volta che si avvia questo servizio. Quindi ogni volta che si vuole sviluppare e testare il proprio bot Telegram in locale bisogna eliminare il webhook precedentemente settato e inserire come webhook l'URL più recente fornito da ngrok, che rimanda al progetto locale.
 
 ### Come funziona?
@@ -35,7 +34,8 @@ Il normale flusso di impostazione di un bot Telegram, spiegato più nel dettagli
 2. attraverso una chiamata del tipo `https://api.telegram.org/bot<TOKEN>/setWebhook?url=<ENDPOINT_URL>` viene impostato il webhook, ovvero l'endpoint che verrà interpellato all'inizio di ogni richiesta inviata dall'interfaccia del bot Telegram;
 
 <a href="https://google.it" name="ngrok-script-flow"></a>
-Se si vuole utilizzare ngrok per sviluppare il bot in locale ed, eventualmente, su un bot (token) differente adibito appositamente per il testing, allora vanno eseguiti i seguenti passaggi:
+Se si vuole utilizzare ngrok per sviluppare il bot in locale ed, eventualmente, su un bot (token) differente adibito appositamente per il testing, allora andrebbero eseguiti i seguenti passaggi:
+
 1. creare il tunnel ngrok e ottenere l'URL provvisorio generato da ngrok, da utilizzare come webhook
 2. eliminare il precedente webhook associato al bot con una chiamata del tipo `https://api.telegram.org/bot<TOKEN>/deleteWebhook`
 3. impostare il nuovo webhook, utilizzando l'URL fornito da ngrok, con una chiamata del tipo `https://api.telegram.org/bot<TOKEN>/setWebhook?url=<NGROK_URL>`
@@ -123,4 +123,6 @@ Press CTRL+C to stop ngrok tunneling
 L'output mostra chiaramente [il flusso descritto nel paragrafo precedente](#ngrok-script-flow). Il file `C:/User/programmer01/xampp/htdocs/mp4mp3converter_bot/endpoint.php` viene utilizzato come endpoint del bot identificato dal token `1029384756alskdjfhgzmxncbvqpwoeiruty1029384756`.
 
 ## Conclusioni
-L'uso di ngrok unito al mio script è una scelta di sviluppo che consiglio a chiunque voglia sviluppare un bot Telegram. Lo script può essere arricchito di funzionalità e la libreria `pyngrok` può essere sfruttata ancora meglio. Accolgo volentieri suggerimenti :)
+L'uso di ngrok unito a questo script è una scelta di sviluppo che consiglio a chiunque voglia produrre un bot Telegram. Lo script può essere arricchito di funzionalità e la libreria `pyngrok` offre numerose funzionalità per la gestione di tunnel ngrok che potrebbero essere sfruttate maggiormente. 
+
+Accolgo volentieri suggerimenti :)
