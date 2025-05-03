@@ -122,6 +122,9 @@ Press CTRL+C to stop ngrok tunneling
 
 L'output mostra chiaramente [il flusso descritto nel paragrafo precedente](#ngrok-script-flow). Il file `C:/User/programmer01/xampp/htdocs/mp4mp3converter_bot/endpoint.php` viene utilizzato come endpoint del bot identificato dal token `1029384756alskdjfhgzmxncbvqpwoeiruty1029384756`.
 
+### Debug delle richieste HTTP
+Durante lo sviluppo potrebbe essere utile visionare nel dettaglio i risultati delle richieste inviate dal bot al tunnel ngrok. Per fare ciò basta visitare l'interfaccia web fornita da ngrok all'indirizzo locale `http://127.0.0.1:4040/inspect/http`, in cui per ogni richiesta verrà mostrato l'header, i parametri GET/POST, il codice di risposta e altre informazioni utili per verificare il corretto funzionamento del bot.
+
 ## Conclusioni
 L'uso di ngrok unito a questo script è una scelta di sviluppo che consiglio a chiunque voglia produrre un bot Telegram. Lo script può essere arricchito di funzionalità e la libreria `pyngrok` offre numerose funzionalità per la gestione di tunnel ngrok che potrebbero essere sfruttate maggiormente. 
 
