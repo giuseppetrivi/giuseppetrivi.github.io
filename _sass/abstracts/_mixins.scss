@@ -54,16 +54,16 @@
     background-color: var(--prompt-#{$type}-bg);
 
     & > p::before {
-      content: $fa-content + " \00a0";
+      content: $fa-content;;
       color: var(--prompt-#{$type}-icon-color);
       font: var(--fa-font-#{$fa-style});
+      margin-right: 10px;
 
       @if $rotate != 0 {
         content: $fa-content;
         transform: rotate(#{$rotate}deg);
         position: relative;
         display: inline-block;
-        margin-right: 10px;
       }
     }
   }
