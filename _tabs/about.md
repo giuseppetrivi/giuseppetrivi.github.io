@@ -18,7 +18,7 @@ order: 4
 
 Mi occupo principalmente di sviluppo di software e nello specifico della parte relativa al back-end, dalla costruzione dell'architettura del software e di eventuali database all'implementazione nel codice.
 
-[Qui](/assets/files/Tesi_Giuseppe_Trivisano070425.pdf) può essere visionata la mia tesi di laurea sperimentale svolta in collaborazione con due ricercatori dell'[ISTC (*Istituto di Scienze e Tecnologie della Cognizione*)](https://www.istc.cnr.it/) del [CNR (*Consiglio Nazionale delle Ricerche*)](https://www.cnr.it/), che tratta dei sistemi multi-agente e dell'utilizzo delle strategie evolutive per il loro controllo coordinato.
+[Qui](/assets/files/Tesi_Giuseppe_Trivisano070425.pdf) può essere visionata la mia tesi di laurea sperimentale svolta in collaborazione con due ricercatori dell'[ISTC *(Istituto di Scienze e Tecnologie della Cognizione)*](https://www.istc.cnr.it/) del [CNR *(Consiglio Nazionale delle Ricerche)*](https://www.cnr.it/), che tratta dei sistemi multi-agente e dell'utilizzo delle strategie evolutive per il loro controllo coordinato.
 
 I miei contatti sono nella parte bassa della sidebar a sinistra. In ogni caso, per eventuali informazioni, offerte o proposte puoi contattarmi all'indirizzo email <a href="javascript:location.href = 'mailto:' + ['giuseppetrivisanogt','gmail.com'].join('@')" aria-label="email">giuseppetrivisanogt@gmail.com</a>.
 
