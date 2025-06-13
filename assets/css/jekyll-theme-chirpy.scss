@@ -62,6 +62,9 @@ header .post-desc {
 /* Classi per la pagina "About" */
 .content {
   text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 .about-who-i-am {
