@@ -59,7 +59,11 @@
       font: var(--fa-font-#{$fa-style});
 
       @if $rotate != 0 {
+        content: $fa-content;
         transform: rotate(#{$rotate}deg);
+        position: relative;
+        display: inline-block;
+        margin-right: 10px;
       }
     }
   }
