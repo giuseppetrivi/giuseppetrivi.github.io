@@ -53,8 +53,8 @@
   &.prompt-#{$type} {
     background-color: var(--prompt-#{$type}-bg);
 
-    &::before {
-      content: $fa-content;
+    & > p::before {
+      content: $fa-content + " \00a0";
       color: var(--prompt-#{$type}-icon-color);
       font: var(--fa-font-#{$fa-style});
 

@@ -67,7 +67,7 @@ blockquote {
   &[class^='prompt-'] {
     border-left: 0;
     position: relative;
-    padding: 1rem 1rem 1rem 3rem;
+    padding: 1rem 1.2rem;
     color: var(--prompt-text-color);
 
     @extend %rounded;
@@ -178,10 +178,10 @@ main {
   @include bp.lte(bp.get(sm)) {
     .content {
       > blockquote[class^='prompt-'] {
-        @include mx.ml-mr(-1rem);
+        /*@include mx.ml-mr(-1rem);
 
         border-radius: 0;
-        max-width: none;
+        max-width: none;*/
       }
     }
   }
