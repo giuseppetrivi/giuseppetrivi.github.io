@@ -94,7 +94,7 @@ header .post-desc {
 
 /* nasconde la lista laterale destra con i post più recenti */
 #access-lastmod {
-  display: none;
+  display: none !important;
 }
 
 /* nasconde il navigatore a fine pagine dei post */
