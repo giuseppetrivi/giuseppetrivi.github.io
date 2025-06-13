@@ -91,3 +91,13 @@ header .post-desc {
     margin-bottom: 10px;
   }
 }
+
+/* nasconde la lista laterale destra con i post più recenti */
+#access-lastmod {
+  display: none;
+}
+
+/* nasconde il navigatore a fine pagine dei post */
+.post-navigation {
+  display: none !important;
+}
