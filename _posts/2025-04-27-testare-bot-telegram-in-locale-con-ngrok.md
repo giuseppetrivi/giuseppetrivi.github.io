@@ -5,10 +5,10 @@ description:
   I bot Telegram necessitano di un webhook, ovvero di un file accessibile tramite URL, per eseguire il loro codice. Per sviluppare un bot Telegram, quindi, è necessario caricare ogni modifica sul server che ospita il codice, e questo può rallentare di molto il ciclo di sviluppo. In questo articolo mostro come sviluppare bot Telegram in locale utilizzando ngrok con l'ausilio di un semplice script Python sviluppato da me per automatizzare diverse operazioni.
 date: 2025-04-27 12:32 +0200
 image:
-  path: /assets/img/testare-bot-con-ngrok/ngrok-logo.webp
+  path: /assets/img/ngrok-logo.webp
   # alt: Logo di ngrok
-categories: [Progetto, TelegramBot]
-tags: [telegram, bot, testing, script]
+categories: [Progetto]
+tags: [telegram-bot, testing, script, python]
 ---
 
 
