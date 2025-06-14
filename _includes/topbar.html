@@ -29,11 +29,13 @@
             {% endif %}
 
           {% elsif page.layout == 'category' or page.layout == 'tag' %}
-            <span>
-              <a href="{{ item | append: '/' | relative_url }}">
-                {{- site.data.locales[include.lang].tabs[item] | default: page.title -}}
-              </a>
-            </span>
+            {% assign label = site.data.locales[include.lang].tabs[item] | default: item %}
+            <!-- Se è exactly "categories" o "tags", lo mostri senza link -->
+            {% if item == 'categories' or item == 'tags' %}
+              <span class="breadcrumb-label">{{ label }}</span>
+            {% else %}
+              <span><a href="{{ item | append: '/' | relative_url }}">{{ label }}</a></span>
+            {% endif %}
           {% endif %}
         {% endfor %}
       {% endif %}
