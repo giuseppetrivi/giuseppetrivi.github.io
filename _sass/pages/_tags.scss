@@ -18,6 +18,6 @@
 
 #tags {
   @include bp.lt(bp.get(lg)) {
-    justify-content: center !important;
+    justify-content: left !important;
   }
 }
