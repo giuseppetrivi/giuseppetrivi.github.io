@@ -157,6 +157,10 @@ main {
     @include bp.lg {
       margin-top: 2rem;
     }
+
+    @include bp.lt(bp.get(md)) {
+      margin-top: 0.3rem;
+    }
   }
 
   p {
