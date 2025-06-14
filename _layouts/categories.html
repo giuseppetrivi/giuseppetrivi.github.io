@@ -3,6 +3,10 @@ layout: page
 # All the Categories of posts
 ---
 
+<h1 class="dynamic-title">
+  Categorie
+</h1>
+
 {% include lang.html %}
 
 {% assign HEAD_PREFIX = 'h_' %}
@@ -136,3 +140,25 @@ layout: page
     {% assign group_index = group_index | plus: 1 %}
   {% endif %}
 {% endfor %}
+
+<h1 class="dynamic-title" style="margin-top: 3rem;">
+  Tags
+</h1>
+
+<div id="tags" class="d-flex flex-wrap mx-xl-2">
+  {% assign tags = '' | split: '' %}
+  {% for t in site.tags %}
+    {% assign tags = tags | push: t[0] %}
+  {% endfor %}
+
+  {% assign sorted_tags = tags | sort_natural %}
+
+  {% for t in sorted_tags %}
+    <div>
+      <a class="tag" href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+        {{ t -}}
+        <span class="text-muted">{{ site.tags[t].size }}</span>
+      </a>
+    </div>
+  {% endfor %}
+</div>

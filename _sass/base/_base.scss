@@ -56,6 +56,10 @@ h1.dynamic-title {
   }
 }
 
+.content > h1.dynamic-title {
+  margin-bottom: 1.5rem;
+}
+
 main {
   &.col-12 {
     @include bp.xxxl {
