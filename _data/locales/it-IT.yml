@@ -52,9 +52,9 @@ notification:
 # ----- Posts related labels -----
 
 post:
-  written_by: Da
-  posted: Postato
-  updated: Aggiornato
+  written_by: da
+  posted: postato il
+  updated: aggiornato il
   words: parole
   pageview_measure: visioni
   read_time:
