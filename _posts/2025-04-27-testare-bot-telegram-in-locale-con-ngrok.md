@@ -7,12 +7,12 @@ date: 2025-04-27 12:32 +0200
 image:
   path: /assets/img/ngrok-logo.webp
   # alt: Logo di ngrok
-categories: [Progetto]
+categories: [Progetti]
 tags: [telegram-bot, testing, script, python]
 ---
 
 
-## Il problema
+## Il problema 
 Prima di mandare un software in produzione e renderlo accessibile al pubblico è necessario eseguirlo in un ambiente isolato (ad esempio in locale sul proprio PC) per effettuare test e debug del codice con lo scopo di verificarne il corretto funzionamento.
 
 Durante [la loro configurazione](https://core.telegram.org/bots/tutorial), i bot Telegram hanno bisogno di un [webhook](https://it.wikipedia.org/wiki/Webhook), ovvero un collegamento ad uno specifico endpoint (ad esempio un file PHP) presente sul web e accessibile tramite URL. Questo file è scritto appositamente per fungere da punto di accesso per l'elaborazione delle richieste inviate dall'interfaccia del bot Telegram. Questo vuol dire che per sviluppare un bot Telegram, verificandone contemporaneamente il corretto funzionamento, bisogna comunque inserire tutto il progetto (file di codice) in un server accessibile dal web tramite URL. Quindi, per ogni modifica al codice del bot va utilizzato un collegamento FTP per caricare i file modificati sul server e solo successivamente può essere testato attraverso l'interfaccia di Telegram. Tutto ciò complica  notevolmente il processo di sviluppo e ne rallenta l'efficienza.

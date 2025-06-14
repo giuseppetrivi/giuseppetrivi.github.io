@@ -7,11 +7,11 @@ date: 2025-06-10 15:22 +0200
 image:
   path: /assets/img/telegram-states-3.webp
   # alt: Immagine generata da AI
-categories: [Progetto]
+categories: [Progetti]
 tags: [telegram-bot, framework, architettura, php]
 ---
 
-## Il problema della gestione degli stati
+## Il problema della gestione degli stati 
 Le API per gestire le richieste di un bot Telegram sono *stateless*, quindi ogni richiesta è nuova per il webhook del bot. Se si desidera creare una procedura complessa suddivisa in più parti sequenziali, è necessario gestirla manualmente verificando che ogni richiesta si trovi al momento giusto della procedura, rispondendo di conseguenza e modificando lo stato per accogliere correttamente la richiesta successiva.
 
 > Per "richiesta inviata al bot" si intendono quelle azioni che chiamano in causa il webhook. Quindi un messaggio è una richiesta, così come lo sono premere un *inline button* o un *button*. Per semplicità i termini "richiesta", "messaggio", "comando" e "input" possono essere considerati come sinonimi in questo articolo.
