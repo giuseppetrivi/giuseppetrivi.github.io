@@ -54,6 +54,16 @@ h1.dynamic-title {
       margin-top: 2.5rem;
     }
   }
+  @include bp.lt(bp.get(md)) {
+    margin-top: 0.3rem;
+  }
+}
+
+h1.dynamic-title-home {
+  margin-top: 0;
+  @include bp.lt(bp.get(md)) {
+    margin-top: 0.3rem;
+  }
 }
 
 .content > h1.dynamic-title {
@@ -131,6 +141,10 @@ main {
   em {
     @extend %normal-font-style;
   }
+}
+
+.content-labels {
+  margin-top: 0.3rem !important;
 }
 
 .content {
