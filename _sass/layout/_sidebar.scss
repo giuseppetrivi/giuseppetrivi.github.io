@@ -79,12 +79,12 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     @include mx.mt-mb(2.5rem);
     @extend %clickable-transition;
 
-    padding-left: 2rem;
+    padding-left: 1.3rem;
     padding-right: 1.25rem;
     width: 100%;
 
     @include bp.lg {
-      margin-top: 3rem;
+      margin-top: 1.7rem;
     }
 
     @include bp.xxxl {
@@ -98,15 +98,16 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     @extend %clickable-transition;
     @extend %sidebar-link-hover;
 
-    font-family: inherit;
-    font-weight: 900;
-    font-size: 1.75rem;
+    font-family: "Lora";
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 0;
     line-height: 1.2;
     letter-spacing: 0.25px;
-    margin-top: 1.25rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
     width: fit-content;
-    color: var(--site-title-color);
+    //color: var(--site-title-color);
   }
 
   .site-subtitle {
@@ -127,7 +128,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       opacity: 0.9;
       width: 100%;
 
-      @include mx.pl-pr(1.5rem);
+      @include mx.pl-pr(1.25rem);
 
       @include bp.xxxl {
         @include mx.pl-pr(2.75rem);
@@ -169,13 +170,13 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       }
 
       &:not(:first-child) {
-        margin-top: 0.25rem;
+        margin-top: 0.35rem;
       }
     }
   }
 
   .sidebar-bottom {
-    padding-left: 2rem;
+    padding-left: 1.25rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
 
