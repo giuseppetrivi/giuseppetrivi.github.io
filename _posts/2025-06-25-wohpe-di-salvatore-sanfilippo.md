@@ -86,6 +86,6 @@ In generale, questo romanzo lascia una punta di ottimismo verso l'umanità e ver
 
 ## Link utili
 - 📖 [libro su IBS](https://www.ibs.it/wohpe-libro-salvatore-sanfilippo/e/9791280845115?srsltid=AfmBOopX03XsH_kvaT9DCFTxmv_pzuAnQvvCrWY9scbMEHWX7g02kdR_)
-- 🎬 [canale YouTube di Salvatore Sanfilippo](http://youtube.com/@antirez)
+- 🎬 [canale YouTube di Salvatore Sanfilippo](https://youtube.com/@antirez)
 - 📝 [blog di Salvatore Sanfilippo](https://antirez.com/latest/0)
 - 🌐 [profilo LinkedIn di Salvatore Sanfilippo](https://www.linkedin.com/in/salvatore-sanfilippo-b52b47249/)
