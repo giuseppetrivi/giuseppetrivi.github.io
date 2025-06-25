@@ -3,7 +3,7 @@ layout: post
 title: '"Wohpe" di Salvatore Sanfilippo'
 description:
   "Siamo alla fine del XXI secolo. L'intelligenza artificiale forte è vietata da vent'anni, ma ormai da tempo i cambiamenti climatici hanno avviato una serie di catastrofi naturali inarrestabili e la civiltà è sull'orlo della distruzione. Con la collaborazione di tutti i maggiori governi del mondo, viene approvato il progetto Wohpe per la costruzione di una rete neurale con una quantità elevatissima di parametri per tentare un'ultima soluzione: porre all'intelligenza artificiale le domande decisive su come salvare la civiltà dalla sua inevitabile fine. Questa è la trama di \"Wohpe\", il libro di Salvatore Sanfilippo uscito nel Luglio 2022."
-date: 2025-06-25 09:00 +0200
+date: 2025-06-25 09:30 +0200
 image:
   path: /assets/img/wohpe_articolo.webp
 categories: [Libri]
